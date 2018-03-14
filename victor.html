@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Victor Njuguna</title>
+    <link rel="stylesheet" href="/css/master.css">
+    <header>
+      <h1><b><u>VICTOR NJUGUNA</b></u></strong></h1> <!-- This is the header of the page which can also contain a logo -->
+      <nav> <!--This is the navigation section containing the section's menu -->
+        <ul> <!--Unordered list of elements -->
+          <li><a href="#victor.html">Home</a></li> <!-- Contains all the menus -->
+          <li><a href="#units">Units Offered</a></li><!-- Internal linking -->
+          <li><a href="about us.html">About us</a></li>
+          <li><a href="contacts.html">Contacts</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+        </ul>
+      </nav><!-- End of navigation -->
+
+      </header>
+  </head>
+  <body><section id="table">
+    <p>
+    <section id="me">
+      <div class="content">
+        <h3><u>My Details</u></h3>
+        <article class="summary">
+          <p>My name is Victor Nuguna.I am an undergraduate student at the Jomo Kenyatta University of Agriculture and Technology.I study a Bachelors degree of Computer Science.<br>
+          I am in my second year of study and by the end of the course my goal is to be an accomplished computer scientist capable of coming up with viable solutions in regards to <br>computers and software.At the moment I am capable of programming in the following programming languages; </p>
+          <!-- Creating an ordered list -->
+          <ol>
+            <li>C Language</li>
+            <li>C++ Language</li>
+            <li>Java Language</li>
+            <li>JavaScript</li>
+            <li>HTML & CSS</li>
+          </ol>
+        </article>
+        <article class="image">
+          <p>
+          <img src="images.jpg" width="254"height="194"
+               alt="HTML5 Logo">
+          </p>
+        </article>
+        <article class="links">
+          <h3><u>Reference sites</u></h3>
+          <p><strong>Click on a name to go to that page</strong></p>
+          <!-- Creating an unordered list -->
+          <ul>
+            <li><a href = "http://www.youtube.com">YouTube</a></li>
+            <li><a href = "http://www.wikipedia.org">Wikipedia</a></li>
+            <li><a href = "http://www.yahoo.com">Yahoo</a></li>
+          </ul>
+        </article>
+      </div>
+    </section>
+    <section id="units">
+      <p><h3><u>Units Offered</u></h3>
+      <table border="3">
+        <thead>
+          <th>Course Units</th>
+          <th>Hours allocated per week</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Electronics</td><td>Seven</td>
+          </tr>
+          <tr>
+            <td>Programming Languages</td><td>Eight</td>
+          </tr>
+          <tr>
+            <td>Operating Systems I</td><td>Eight</td>
+          </tr>
+          <tr>
+            <td>Object Oriented Programming</td><td>Eight</td>
+          </tr>
+          <tr>
+            <td>Vector Analysis</td><td>Four</td>
+          </tr>
+          <tr>
+            <td>Internet Application Programming</td><td>Five</td>
+          </tr>
+          <tr>
+            <td>Probability & Statistiics I</td><td>Three</td>
+          </tr>
+          <tr>
+            <td>Odinary Differential Equations I</td><td>Three</td>
+          </tr>
+        </tbody>
+
+      </table></p>
+
+    </section>
+    <section>
+      <h3><u>FEEDACK FORM USING HTML</u></h3>
+      <form class="details" action="victor.html" method="post">
+        <p>
+          <label>Date:
+            <input type ="text"/>
+                (dd-mm-yyyy)
+         </label>
+        </p>
+        <p>
+          <label>Datetime-local:
+          <input type ="text"/>
+            (dd-mm-yyyyThh:mm,ie 27-01-2017T03:15)
+          </label>
+        </p>
+        <p>
+          <label>Email:
+          <input type ="text" />(name@domain.com)
+           </label>
+         </p>
+         <p>Enter
+           <label>Number of units you take:
+         <input type ="text"
+                min="1"
+                max="8"
+                step="1"/>
+         </label>
+       </p>
+       <p>
+         <label>Range of marks per unit: 0
+         <input type ="text"
+                min="0"
+                max="100"/>100
+         </label>
+       </p>
+       <p>
+         <label>Search:
+         <input type ="text" />
+         </label> (Enter your such query here.)
+       </p>
+       <p>
+       <label>Tel:
+       <input type ="text"
+              pattern = "\(\d{3}\) + \d{3}-\d{4}" required />
+              [(###) ###-####]
+       </label>
+       </p>
+       <p>
+         <label>Time:
+         <input type="text" />
+                (hh:mm:ss:ff)
+         </label>
+       </p>
+
+       <p>
+         <label>Week:
+         <input type="text" />
+           (Wnn-yyyy, ie W01-2012)
+         </label>
+       </p>
+       <p>
+         <label>URL:
+         <input type="text" />
+            (http://www.domainname.com)
+        </label>
+      </p>
+      <p>
+        <input type="submit" value="Submit"/>
+        <input type="reset" value="Clear">
+      </p>
+      <section>
+        <h3><u>FEEDACK FORM USING HTML5</u></h3>
+        <form class="details2" action="victor.html" method="post">
+          <p>Pick your preferred
+            <label>Color:
+              <input type="color" autofocus/>
+            </label>
+          </p>
+          <p>
+            <label>Date:
+              <input type ="date"/>
+                  (dd-mm-yyyy)
+           </label>
+          </p>
+          <p>
+            <label>Datetime-local:
+            <input type ="datetime-local"/>
+              (dd-mm-yyyyThh:mm,ie 27-01-2017T03:15)
+            </label>
+          </p>
+          <p>
+            <label>Email:
+            <input type ="email" placeholder="name@domain.com"
+                   required />(name@domain.com)
+             </label>
+           </p>
+           <p>Enter
+             <label>Number of units you take:
+           <input type ="number"
+                  min="1"
+                  max="8"
+                  step="1"
+                  value="4"/>
+           </label>
+         </p>
+         <p>
+           <label>Range of marks per unit: 0
+           <input type ="range"
+                  min="0"
+                  max="100"
+                  value="10"/>100
+           </label>
+         </p>
+         <p>
+           <label>Search:
+           <input type ="search" placeholder ="search query" />
+           </label> (Enter your such query here.)
+         </p>
+         <p>
+         <label>Tel:
+         <input type ="tel" placeholder = "(###) ###-####"
+                pattern = "\(\d{3}\) + \d{3}-\d{4}" required />
+                [(###) ###-####]
+         </label>
+         </p>
+         <p>
+           <label>Time:
+           <input type="time" />
+                  (hh:mm:ss:ff)
+           </label>
+         </p>
+
+         <p>
+           <label>Week:
+           <input type="week" />
+             (Wnn-yyyy, ie W01-2012)
+           </label>
+         </p>
+         <p>
+           <label>URL:
+           <input type="url"
+              placeholder="http://www.domainname.com" />
+              (http://www.domainname.com)
+          </label>
+        </p>
+        <p>
+          <input type="submit" value="Submit"/>
+          <input type="reset" value="Clear">
+        </p>
+
+
+      </form>
+    </section>
+
+  </body>
+</html>
