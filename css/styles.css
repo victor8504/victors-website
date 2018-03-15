@@ -1,0 +1,22 @@
+h1{
+  color: blue;
+  text-align: center;
+}
+h3 {color: green;
+    font-style: italic;
+    text-align: center;
+}
+p {
+  font-size: 18
+  font-family: sans-serif;
+}
+ul {
+  line-height: 40px;
+}
+body{
+  background-image: url(../images/pioneer.jpg);
+  background-repeat: x;
+}
+form{
+  background-color: #ebbbb
+}
